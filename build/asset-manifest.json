@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/abroad-care/static/css/main.de5d1507.css",
+    "main.js": "/abroad-care/static/js/main.e5463abd.js",
+    "static/js/787.0283048c.chunk.js": "/abroad-care/static/js/787.0283048c.chunk.js",
+    "static/media/smilepng05-1024x682.jpeg": "/abroad-care/static/media/smilepng05-1024x682.68ceb5a754bdcbf926d4.jpeg",
+    "static/media/dddss.jpg": "/abroad-care/static/media/dddss.edb1448ff45d27984f64.jpg",
+    "static/media/bald1jpeg.jpeg": "/abroad-care/static/media/bald1jpeg.66ebc7ffdee335dbd719.jpeg",
+    "static/media/bald.jpeg": "/abroad-care/static/media/bald.62cdc24859293e1b1221.jpeg",
+    "static/media/WhatsApp-Image-2022-10-12-at-12.56.25-1024x683.jpeg": "/abroad-care/static/media/WhatsApp-Image-2022-10-12-at-12.56.25-1024x683.4ec71855ac6a1a446651.jpeg",
+    "static/media/smilejpg015-1024x786.jpg": "/abroad-care/static/media/smilejpg015-1024x786.111076774cd432641e7b.jpg",
+    "static/media/WhatsApp-Image-2022-10-12-at-12.56.25-1-1024x683 (1).jpeg": "/abroad-care/static/media/WhatsApp-Image-2022-10-12-at-12.56.25-1-1024x683 (1).cc3c3eedd50924f43cc5.jpeg",
+    "static/media/smilejpg02-1024x789.jpg": "/abroad-care/static/media/smilejpg02-1024x789.2d1273bcf6b5596c9a6a.jpg",
+    "static/media/WhatsApp-Image-2022-10-12-at-12.56.24-1-1024x683.jpeg": "/abroad-care/static/media/WhatsApp-Image-2022-10-12-at-12.56.24-1-1024x683.e7868346887424467913.jpeg",
+    "static/media/WhatsApp-Image-2022-10-12-at-12.56.26-2-1024x683.jpeg": "/abroad-care/static/media/WhatsApp-Image-2022-10-12-at-12.56.26-2-1024x683.e474566e2ada3eb9d4c3.jpeg",
+    "static/media/WhatsApp-Image-2022-10-12-at-12.56.25-2-1024x683.jpeg": "/abroad-care/static/media/WhatsApp-Image-2022-10-12-at-12.56.25-2-1024x683.21da9d5a47485a988df8.jpeg",
+    "static/media/WhatsApp-Image-2022-10-12-at-12.56.24-1024x682.jpeg": "/abroad-care/static/media/WhatsApp-Image-2022-10-12-at-12.56.24-1024x682.68b92aea24df3efe912f.jpeg",
+    "static/media/logo.svg": "/abroad-care/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/abroad-care/index.html",
+    "main.de5d1507.css.map": "/abroad-care/static/css/main.de5d1507.css.map",
+    "main.e5463abd.js.map": "/abroad-care/static/js/main.e5463abd.js.map",
+    "787.0283048c.chunk.js.map": "/abroad-care/static/js/787.0283048c.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.de5d1507.css",
+    "static/js/main.e5463abd.js"
+  ]
+}
