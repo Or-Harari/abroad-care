@@ -1,0 +1,26 @@
+.container{
+    position: relative;
+    width: 90%;
+margin: auto;
+
+
+}
+.grid-1-row{
+    position: relative;
+    width: 100%;
+    display: inline-block;
+    
+}
+.grid-2-row{
+    position: relative;
+    width: 48%;
+    display: inline-block;
+}
+.grid-3-row{
+    position: relative;
+    width: 30vw;
+    display: inline-block;
+}
+.grid-4-row{
+
+}

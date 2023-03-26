@@ -1,0 +1,81 @@
+.main-about{
+    position: relative;
+    
+}
+#img-pop-content{
+
+    display: flex;
+    letter-spacing: 1px;
+    
+    }
+#section-about-1{
+    position: relative;
+    width: 100%;
+    font-weight: 200;
+    font-size: 12px;
+    text-align: left;
+}
+
+#about-h3-style{
+    z-index: 2;
+    position: relative;
+    display: block;
+    margin-left: auto;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(1, 1, 68);
+    font-weight: 800;
+    text-align: left;
+}
+.animateOnScrollIns{
+    transform:translateY(20px);
+    transition:1s all;
+    opacity: 0;
+}
+.animateOnScrollIns.active{
+    transform:translateY(0px);
+    opacity: 100;
+    transition:1s all;
+ 
+ }
+ .about-img-sec img{
+    position: relative;
+    max-width: 90%;
+    background-size: cover;
+ }
+ .about-ul li{
+    padding: 5px;
+ }
+ .about-button{
+    position: absolute;
+    bottom: 30px;
+    left: 0;
+    margin-left: 300px;
+    background-color: rgb(69, 140, 240);
+    border: none;
+    padding: 15px;
+    height: 30px;
+    border-radius: 5px;
+    justify-items: center;
+    width: fit-content;
+    text-align: center;
+ }
+ .about-button h4{
+position: relative;
+margin: auto;
+bottom: 7px;
+ }
+ .about-button:hover{
+    cursor: pointer;
+    background-color: rgb(44, 124, 236);
+     }
+     .about-img-thrid img{
+        position: relative;
+        width: 200px;
+        left: 40px;
+
+     }
+    
+     #avout-lefti{
+        position: relative;
+        right: 100px;
+     }

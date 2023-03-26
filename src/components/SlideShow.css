@@ -1,0 +1,120 @@
+.slide-show-main{
+    position: relative;
+    max-width: 124rem;
+    padding: 4rem 1rem;
+    margin: 0 auto;
+    width: 80%;
+    justify-content: center;
+}
+.slide-show-sec{
+
+    padding: 1rem 0;
+    font-size: 3.5rem;
+    text-align: center;
+
+}
+
+
+
+
+
+#arrow-back-outline{
+    position: relative;
+    height: 50px;
+    display: block;
+background-color: rgb(35, 94, 94);
+z-index: 100;
+border: none;
+cursor: pointer;
+}
+
+#arrow-back-outline:hover{
+    position: relative;
+
+cursor: pointer;
+}
+.arrow-forward-outline{
+    border: none;
+    
+}
+
+.swiper_container {
+    min-height: fit-content;
+  padding: 2rem 0;
+  position: relative;
+}
+
+.swiper-slide {
+  width: 37rem;
+  height: 42rem;
+  position: relative;
+}
+
+
+
+.swiper-slide img {
+  width: 37rem;
+  height: 42rem;
+  border-radius: 2rem;
+  object-fit: cover;
+}
+
+.swiper-slide-shadow-left,
+.swiper-slide-shadow-right {
+  display: none;
+}
+
+
+
+
+.swipers-buttons{
+    position: relative;
+    display: flex;
+    width: 85%;
+    justify-content: center;
+    margin: auto;
+    margin-top: 10px;
+}
+
+
+
+.slider-arrow button {
+    
+    cursor: pointer;
+  font-size: 24px;
+  border-radius: 50px;
+  width: fit-content;
+  height: fit-content;
+  background-color: rgba(32, 32, 32, 0.886);
+  color: white;
+  border: none;
+}
+
+.slider-controler .slider-arrow::after {
+  content: '';
+}
+
+.swiper-pagination {
+  position: relative;
+
+  display: flex;
+  justify-content: center;
+
+}
+
+.slider-controler{
+    bottom: 5px;    
+    position: relative;
+    display: inline-block;
+width: 25%;
+}
+
+
+.swiper-pagination .swiper-pagination-bullet:hover {
+    background: rgb(67, 136, 247);
+    
+  }
+  
+.swiper-pagination .swiper-pagination-bullet-active {
+  background: rgb(67, 136, 247);
+}

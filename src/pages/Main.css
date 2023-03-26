@@ -1,0 +1,645 @@
+:root {
+    --max-width: 660px;
+    
+  }
+
+.main-home{
+    position: relative;
+    width: 100%;
+    min-width: 50%;
+    height: fit-content;
+     background: linear-gradient( white 50%,rgb(233,239,248) 73%, rgb(243, 248, 255)  90%);
+}
+
+#main-p-style{
+    position: relative;
+    display: block;
+    font-size: 9px;
+    color: rgba(66, 66, 253, 0.981);
+    line-height: 2;
+    text-align: left;
+    font-weight: 600;
+    letter-spacing: 1px;
+    
+}
+#main-h3-style{
+    z-index: 2;
+    position: relative;
+    display: block;
+    margin-left: auto;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(1, 1, 68);
+    font-weight: 800;
+    text-align: left;
+}
+.main-img{
+    position: relative;
+    max-width: 100%;
+    bottom: 30px;
+    min-height: 480px;
+    margin: auto;
+    background-position: center;
+background-image: url('https://abroadcare.co.il/wp-content/uploads/2022/12/portrait-concentrated-young-bearded-man.webp');
+background-size: cover;
+background-repeat: no-repeat;
+background-position: top;
+}
+.main-main-ul{
+    margin: 0;
+    padding-left: 0px; /* add padding-left: 0; to remove the space on left side of the ul */
+    position: absolute;
+    display: flex;  
+    flex-wrap: wrap;
+  border-radius: 2px;
+bottom: 0px;
+
+    background-color: rgb(233,239,248);
+    width: 100%;
+    
+    
+}
+.sections{
+    position: relative;
+    
+
+}
+.section-main-2{
+    display: flex;
+    padding-top: 45px;
+    padding-bottom: 84px;
+
+    justify-content: space-between;
+}
+
+.section-main-2 p{
+    position: relative;
+    bottom: 0px;
+    
+    display: inline-block;
+    font-size: 12px;
+    color: rgb(72, 71, 71);
+    line-height: 2;
+    font-weight: 200;
+    text-align: left;
+}
+.section-2-1-title{
+    position: relative;
+    bottom: 20px;
+    width: fit-content;
+    float: right;
+}
+.section-2-1 p{
+    font-weight: 600;
+    font-size: 10px;
+    letter-spacing: 1.5px;
+float: left;
+    color: rgba(66, 66, 253, 0.981);
+}
+.main-page-form{
+    position: absolute;
+    backdrop-filter: blur(10px);
+    background-color: rgba(0, 17, 36, 0.708);
+    bottom: 35px;
+    width: 100%;
+    left: 65px !important;
+    height: 280px;
+    border-radius: 10px;
+    padding: 10px;
+
+    transform: scale(.9);
+}
+#main-form-h4{
+font-size: 20px;
+font-family:Arial, Helvetica, sans-serif;
+color: rgba(255, 255, 255, 0.944);
+}
+.main-label-div{
+
+display: flex;
+width: fit-content;
+line-height: -20; 
+flex-wrap: wrap;   
+}
+.main-label-div{
+    z-index: 10;
+    position: relative;
+bottom: 10px;
+width: 45%;
+margin-bottom: -14px;
+padding: 3px;
+
+
+    }
+
+.main-label-div h4{
+text-align: center;
+    font-family:Arial, Helvetica, sans-serif;
+    letter-spacing: 2px;
+    text-align: left;
+    position: relative;
+    color: rgb(255, 255, 255);
+    font-size: 12px;
+ 
+    
+}
+.main-page-form form{
+    position: relative;
+    height: fit-content;
+    display: flex;
+flex-wrap: wrap;
+bottom: 10px;
+    border-radius: 10px;
+}
+.main-page-form form input{
+    position: relative;
+   bottom: 10px;
+   color: black;
+   width: 100%;
+   display: inline-block;
+   border: 1px solid rgba(118, 178, 251, 0.433);
+   background-color: rgba(255, 255, 255, 0.928);
+}
+.main-page-form input:focus{
+outline: none;
+   border: 2px solid rgba(118, 178, 251, 0.765);
+   border-radius: 4px;
+
+}
+.submit-button-div{
+    position: relative;
+bottom: 10px;
+display: block;
+width: 100%;
+
+}
+.section-2-1 h2{
+z-index: 2;
+    position: relative;
+    display: block;
+    margin-left: auto;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(1, 1, 68);
+    font-weight: 800;
+}
+.form-select{
+    position: relative;
+    width: 100%;
+    bottom: 10px;
+}
+#submit-button{
+    background-color: rgb(216, 174, 84);
+    border: none;
+    width: 95%;
+    margin: auto;
+    height: 30px;
+    top: 60px;
+    margin-top: 10px;
+    position: relative;
+    border-radius: 10px;
+ 
+}
+#submit-button:hover{
+    cursor: pointer;
+}
+.submit-form{
+    position:relative;
+    display: block;
+}
+.main-li-box{
+    position: relative;
+    right: 15px;
+    block-size: auto;
+    display: inline-block;
+min-width:calc( var(--max-width)*13/100);
+flex: 1;
+height: fit-content;
+background-color: rgb(233,239,248);
+color: black;
+left: 1px;
+border-radius: 2px;
+
+
+}
+#message{
+    position: relative;
+    width: 200%;
+    font-size: 9px;
+padding-bottom: 30px;
+    text-align: left;
+    
+}
+.message{
+    position: relative;
+    width: 93%;
+    height: 30px;
+}
+
+
+.about-link-main{
+    display: inline;
+    border-bottom: 1px solid blue;
+    text-decoration: none;
+    list-style-type: none;
+    color: blue;
+    letter-spacing: 1.5px;
+    font-size: 10px;
+margin-bottom: 5px;    
+padding-bottom: 4px;
+font-weight: 600;
+float: left;
+font-family: Arial, Helvetica, sans-serif;
+    
+}
+.about-link-main:hover{
+    
+    border-bottom: 1px solid black;
+    transform: scale(.95);
+    color: black;
+    transition: all .2s;
+
+    
+}
+.main-li-box h4{
+    color: rgb(0, 2, 61);
+    position: relative;
+    font-weight: 400;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+.re-icon{
+    padding-top: 17px;
+    padding-bottom: 12px;
+    display: block;
+    transform: scale(1.5);
+    margin: auto;
+    color: rgb(100, 77, 255);
+
+}
+.main-li-box:hover{
+    box-shadow: 0px 7px 27px -7px;
+    color: rgba(126, 108, 173, 0.815);
+    transform: translateY(.5px);
+    transition: all .1s;
+}
+
+.section-title{
+    position: relative;
+width: 50%;
+background-color: black;
+}
+
+.section-title::before{
+    content: '';   
+    position: absolute;
+    z-index: 0;
+    color: aqua;
+width: 150px;
+left: 100%;
+background-color:rgba(127, 255, 212, 0.437);
+    height: 10px;
+bottom: 15px;
+    color: aquamarine;
+}
+
+.animateOnScrollIn.active{
+   transform:translateY(0px);
+   opacity: 100;
+   transition:1s all;
+
+}
+.animateOnScrollIn{
+    position: relative;
+    transform:translateY(20px);
+    transition:1s all;
+    opacity: 0;
+}
+
+
+.main-img-set-1{
+        position: relative;
+    max-width: 100%;
+    min-height: 250px;
+    margin: auto;
+    background-position: center;
+background-size: cover;
+background-repeat: no-repeat;
+background-position: top;
+    background-image: url('../Images/WhatsApp-Image-2022-10-12-at-12.56.24-1-1024x683.jpeg');
+}
+.section-main-3{
+    position: relative;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-bottom: 20px;
+}
+.section-main-4{
+    position: relative;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-bottom: 20px;
+}
+.section-main-4 h2{
+    margin-left: 16px;
+    font-size: 22px;
+    display: block;
+    margin-top: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+.section-main-4 p{
+    position: relative;
+    bottom: 0px;
+    
+    display: inline-block;
+    font-size: 12px;
+    color: rgb(72, 71, 71);
+    font-weight: 200;
+    text-align: left;
+
+}
+
+.main-img-set-2{       
+     position: relative;
+
+    max-width: 100%;
+    background-position: center;
+ background-size: cover; 
+ min-height: 123px;
+    background-image: url('../Images/WhatsApp-Image-2022-10-12-at-12.56.24-1024x682.jpeg');
+
+
+    
+}
+.main-img-set-3{       
+    position: relative;
+   max-width: 100%;
+   margin-top:5px;
+   min-height: 123px;
+   background-position: center;
+   background-size: cover;    
+   background-image: url('../Images/WhatsApp-Image-2022-10-12-at-12.56.25-1024x683.jpeg');
+  
+}
+
+.main-img-set-4{       
+    position: relative;
+   max-width: 100%;
+   min-height: 250px;
+   background-position: center;
+background-size: cover;    
+   background-image: url('../Images/WhatsApp-Image-2022-10-12-at-12.56.26-2-1024x683.jpeg');
+
+
+   
+}
+
+.section-2-photos-2{
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+    
+}
+.full-width{
+    position: relative;
+    width: 100%;
+    min-height: 100%;
+    display: inline-block;
+
+}
+.first-img-pop-decorator{
+    position: relative;
+    z-index: 5;
+    float: right;
+    bottom: 45px;
+    background-color: rgb(57,195,185);
+    border: 1px solid white;
+    height: 60px;
+    width: fit-content;
+    box-shadow: 5px 5px 16px -4px rgba(77, 77, 77, 0.566);
+    color: white;    
+    transition: .5s all;
+    cursor: pointer;
+}
+.img-pop-content{
+
+display: flex;
+letter-spacing: 1px;
+
+}
+.first-img-pop-decorator:hover{
+    color: rgb(34, 33, 86);
+    
+    }
+.iconicon{
+    position: relative;
+    min-width: fit-content;
+    min-height: 60px;
+    
+    height: fit-content;
+}
+.img-pop-content h3{
+margin-left: 16px;
+    font-size: 13px;
+    display: block;
+    margin-top: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+
+    
+    
+    }
+.img-pop-content p {
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 10px;
+position: relative;
+    text-align: center;
+font-size: 10px;
+font-weight: 300;
+
+display: block;
+}
+.img-pop-content-icon{
+    position: relative;
+
+display: block;
+transform: scale(2) translateY(10px);
+margin: auto;
+}
+
+.section-main-4-2-2{
+    position: relative;
+    top: 25%;
+    width: 75%;
+    margin: auto;
+}
+
+.main-img-set-5 img{
+    position: relative;
+    max-width: 70%;
+    min-width: 20%;
+    min-height: 150px;
+ 
+}
+
+.section-5-2{
+    position: relative;
+    width: 30%;
+    display: inline-block;
+    
+}
+.section-5-2 p{
+    font-size: 12px;
+    color: rgb(72, 71, 71);
+    font-weight: 200;
+
+}
+.section-5-1{
+    position: relative;
+    width: 70%;
+}
+.main-img-set-6 img{
+    position: relative;
+ margin-top: 15px;
+    max-width: 100%;
+    min-height: 250px;
+    background-position: center;
+ background-size: cover;   
+    background-image: url('../Images/WhatsApp-Image-2022-10-12-at-12.56.25-2-1024x683.jpeg');
+}
+.sec-5-img-decoration{
+    position: relative;
+    max-width: 100%;
+    max-height: 50px;
+}
+.sec-5-img-decoration img{
+    position: relative;
+left: 30%;
+top: 10%;
+max-width: 22%;
+}
+#section-5-2-1{
+    position: relative;
+    width: 100%;
+    font-weight: 200;
+    font-size: 12px;
+    text-align: left;
+}
+.section-main-5{
+display: flex;
+padding-top: 50px;
+position: relative;
+width: 100%;
+flex-direction: row;
+
+}
+
+.section-main-7{
+
+    position: relative;
+    width: 100%;
+margin-bottom: 50px;
+margin-top: 50px;
+height: 290px;
+border-radius: 10px;
+
+    background-color: rgb(159,242,236);
+}
+/* .section-main-7::after{
+z-index: 10;
+position: absolute;
+    content:url('');
+    background-color: rgba(169, 55, 55, 0.326);
+    width: 100%;
+    left: 0;
+bottom: 0;
+    display: inline-block;
+    height: 70px;
+} */
+
+.main-img-set-7 img{
+    max-width: 497px;
+position: relative;
+height: 100%;
+bottom:40px;
+right: 50%;
+
+
+}
+
+@media only screen and (max-width: 500.5px) {
+    .main-main-ul {
+margin-bottom: -50px;
+           
+    }
+    .section-main-3{
+
+        display: block;
+    
+    }
+    .section-main-7{
+
+        position: relative;
+margin-top: 70px;
+    }
+    .main-img-set-7 img{
+        transform: scale(.8);  
+         position: relative;
+    text-align: left;
+    bottom: 10px;
+    left: -20%;
+    
+    }
+
+        
+    .section-main-4{
+        position: relative;
+        display: flex;
+        flex-direction: column;
+text-align: left;
+  }
+    .section-main-2{
+
+        position: relative;
+        display: flex;
+        flex-direction: column;
+text-align: left;
+top: 30px;
+    }
+    .section-main-5{
+        flex-direction: column;
+        
+        }
+        .main-img-set-5 img{
+            position: relative;
+            max-width: 100%;
+            min-height: 250px;
+         
+        }
+        .main-img-set-5{
+            width: 100%;
+        }
+    .section-main-4-2-2{
+        width: 100%;
+    }
+    .section-5-2 p{
+        font-size: 12px;
+        color: rgb(72, 71, 71);
+        font-weight: 200;
+    
+    }
+
+    .section-2-1-title{
+        
+        bottom: 20px;
+        width: fit-content;
+        float: left;
+    }
+    .first-img-pop-decorator{
+        width: 100%;
+    }
+
+    
+  }
+
