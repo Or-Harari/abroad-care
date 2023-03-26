@@ -1,7 +1,7 @@
 {
   "name": "abroad",
   "version": "0.1.0",
-  "homepage": "https://or-harari.github.io/AbroadCare",
+  "homepage": "https://or-harari.github.io/abroad-care",
   "private": true,
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^6.3.0",
@@ -21,8 +21,7 @@
   "scripts": {
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
-    "start": "react-scripts start"
-    ,
+    "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
