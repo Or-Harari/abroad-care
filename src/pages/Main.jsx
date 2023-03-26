@@ -193,7 +193,7 @@ Regenerate response </p>
                 
               </div>
               <div className='grid-3-row'>
-              <div className='main-page-form'>
+              <div className='main-page-form animateOnScrollIn'>
                         <h4 id='main-form-h4'>We will contact you</h4>
                   <form action="submit">
                         <div className='main-label-div' htmlFor="">

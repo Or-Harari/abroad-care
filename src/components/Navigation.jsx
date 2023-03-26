@@ -60,7 +60,7 @@ export default function Navigation({scrollPosOff,windowSize,color}) {
   return (
     <div>
     <div style= {scrollPosOff === true? {backgroundColor: color , backdropFilter: 'blur(5px)'} :{backgroundColor: color}}  className='main-nav'>
-    <div style={showTest === true? {overflow:'hidden'}:null} className='container'>
+    <div style={showTest === true? {overflow:'hidden'}:null} className='nav-container'>
         <div className='flexing'>
     
 
@@ -74,7 +74,7 @@ export default function Navigation({scrollPosOff,windowSize,color}) {
 <div className='grid-3-row'>
         <ul className='nav-ul'>
             <li><Link id='main'className= {locations.pathname === '/'?'nav-link-active me-4':'nav-link me-4'} to='/' >Main</Link></li>
-            <li><Link style={{width:'75px'}}  id='transplant' className= {locations.pathname === '/Transplent'?'nav-link-active':'nav-link'}to='/Transplent' >Hair Transplant</Link></li>
+            <li><Link style={{width:'95px'}}  id='transplant' className= {locations.pathname === '/Transplent'?'nav-link-active':'nav-link'}to='/Transplent' >Hair Transplant</Link></li>
             <li><Link  id='contact' className= {locations.pathname === '/Contact'?'nav-link-active':'nav-link'} to='/Contact'>Contact</Link></li>
             <li><Link  id='about' className= {locations.pathname === '/About'?'nav-link-active':'nav-link'}  to='/About' >About</Link></li>
             <li alt='Compatible Test' onClick={toglleShowTest} id='compatible' style={location === 'compatible'? { color:'black'}: {color:'rgb(97,99,236)'} } className='nav-link'><GrDocumentText /></li>

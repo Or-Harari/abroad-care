@@ -36,7 +36,7 @@
     position: relative;
     max-width: 100%;
     bottom: 30px;
-    min-height: 480px;
+    min-height: 95vh;
     margin: auto;
     background-position: center;
 background-image: url('https://abroadcare.co.il/wp-content/uploads/2022/12/portrait-concentrated-young-bearded-man.webp');
@@ -232,6 +232,11 @@ padding-bottom: 30px;
     position: relative;
     width: 93%;
     height: 30px;
+}
+
+.main-main-ul li:hover{
+    z-index: 5;
+    cursor: pointer;
 }
 
 
