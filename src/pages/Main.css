@@ -2,7 +2,25 @@
     --max-width: 660px;
     
   }
-
+.main-home p{
+    position: relative;
+    display: block;
+    font-size: 10px!important;
+    line-height: 2;
+    text-align: left;
+    font-weight: 600;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 1px;
+}
+.main-home h3{
+    z-index: 2;
+    position: relative;
+    display: block;
+    margin-left: auto;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 800;
+    text-align: left;
+}
 .main-home{
     position: relative;
     width: 100%;
@@ -521,6 +539,8 @@ margin: auto;
 .section-5-1{
     position: relative;
     width: 70%;
+    right: 40px;
+    top: 40px;
 }
 .main-img-set-6 img{
     position: relative;
@@ -666,3 +686,7 @@ top: 30px;
     
   }
 
+
+h2{
+    font-size: 30px;
+}
