@@ -19,6 +19,7 @@ export default function Navigation({scrollPosOff,windowSize,color}) {
 
     const locations = useLocation();
     useEffect(()=>{
+        
         console.log(locations.pathname);
         if(windowSize){
             let size = windowSize / 1000;
@@ -73,11 +74,11 @@ export default function Navigation({scrollPosOff,windowSize,color}) {
     </div>
 <div className='grid-3-row'>
         <ul className='nav-ul'>
-            <li><Link id='main'className= {locations.pathname === '/'?'nav-link-active me-4':'nav-link me-4'} to='/' >Main</Link></li>
+            <li><Link id='main'className= {locations.pathname === '/'?'nav-link-active me-4':'nav-link me-4'} to='/' >Home</Link></li>
             <li><Link style={{width:'95px'}}  id='transplant' className= {locations.pathname === '/Transplent'?'nav-link-active':'nav-link'}to='/Transplent' >Hair Transplant</Link></li>
             <li><Link  id='contact' className= {locations.pathname === '/Contact'?'nav-link-active':'nav-link'} to='/Contact'>Contact</Link></li>
             <li><Link  id='about' className= {locations.pathname === '/About'?'nav-link-active':'nav-link'}  to='/About' >About</Link></li>
-            <li alt='Compatible Test' onClick={toglleShowTest} id='compatible' style={location === 'compatible'? { color:'black'}: {color:'rgb(97,99,236)'} } className='nav-link'><GrDocumentText /></li>
+            {/* <li alt='Compatible Test' onClick={toglleShowTest} id='compatible' style={location === 'compatible'? { color:'black'}: {color:'rgb(97,99,236)'} } className='nav-link'><GrDocumentText /></li> */}
         </ul>
         </div>
         <div className='grid-3-row'><div className='phone-call'><FiPhoneCall className='contact-number'/><div className='num'>*0505</div></div></div>   

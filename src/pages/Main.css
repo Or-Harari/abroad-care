@@ -58,6 +58,12 @@ bottom: 0px;
     
     
 }
+.main-main-ul h4{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 12px;
+    
+    
+}
 .sections{
     position: relative;
     
@@ -66,7 +72,7 @@ bottom: 0px;
 .section-main-2{
     display: flex;
     padding-top: 45px;
-    padding-bottom: 84px;
+    padding-bottom: 44px;
 
     justify-content: space-between;
 }
@@ -99,19 +105,26 @@ float: left;
     position: absolute;
     backdrop-filter: blur(10px);
     background-color: rgba(0, 17, 36, 0.708);
-    bottom: 35px;
     width: 100%;
-    left: 65px !important;
+    min-width: 250px;
     height: 280px;
+left: -50%;
+    bottom: 0;
+    margin-left: 48%;
     border-radius: 10px;
     padding: 10px;
-
     transform: scale(.9);
 }
 #main-form-h4{
-font-size: 20px;
-font-family:Arial, Helvetica, sans-serif;
-color: rgba(255, 255, 255, 0.944);
+font-size: 16px;
+transform: scale(1.4);
+font-weight: 600;
+letter-spacing: 1.5px;
+font-stretch:wider;
+line-height: 20px;
+
+font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+color: rgb(58, 188, 203);
 }
 .main-label-div{
 
@@ -134,10 +147,11 @@ padding: 3px;
 .main-label-div h4{
 text-align: center;
     font-family:Arial, Helvetica, sans-serif;
-    letter-spacing: 2px;
+    letter-spacing: .5px;
     text-align: left;
     position: relative;
-    color: rgb(255, 255, 255);
+    top: 4px;
+    color: rgba(255, 255, 255, 0.754);
     font-size: 12px;
  
     
@@ -147,6 +161,7 @@ text-align: center;
     height: fit-content;
     display: flex;
 flex-wrap: wrap;
+justify-content: center;
 bottom: 10px;
     border-radius: 10px;
 }
@@ -155,6 +170,7 @@ bottom: 10px;
    bottom: 10px;
    color: black;
    width: 100%;
+   
    display: inline-block;
    border: 1px solid rgba(118, 178, 251, 0.433);
    background-color: rgba(255, 255, 255, 0.928);
@@ -345,6 +361,8 @@ background-position: top;
     flex-direction: row;
     justify-content: space-around;
     padding-bottom: 20px;
+    margin-bottom: 60px;
+
 }
 .section-main-4 h2{
     margin-left: 16px;
@@ -568,7 +586,7 @@ bottom: 0;
 position: relative;
 height: 100%;
 bottom:40px;
-right: 50%;
+right: 10%;
 
 
 }

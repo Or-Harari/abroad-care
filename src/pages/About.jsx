@@ -128,17 +128,18 @@ export default function About({windowSize, scrolled}) {
       </div>
 
 
-        
       <div className='sections section-main-7'>
-              <div className={windowSize>500?'grid-3-row':'full-width'}>
-                  <div className='main-img-set-7'><LazyLoadImage src={Image5} alt="Image Alt"/></div>
 
-                
+      {windowSize>600?
+              <div className='grid-3-row'>            
+              <div className='main-img-set-7'><LazyLoadImage src={Image5} alt="Image Alt"/></div>
               </div>
-              <div className='grid-3-row'>
-              <div className='main-page-form'>
+              :null}
+              
+              <div className={windowSize>600?'grid-3-row':'full-width'}>
+              <div style={windowSize>600?{marginBottom:'35px'}:null} className='main-page-form '>
                         <h4 id='main-form-h4'>We will contact you</h4>
-                  <form action="submit">
+                  <form >
                         <div className='main-label-div' htmlFor="">
                               <h4 htmlFor="">Full Name</h4>
                               <input type="text" />
@@ -418,14 +419,14 @@ export default function About({windowSize, scrolled}) {
                         </div>
 
 <div className='submit-button-div'>
-                        <input id='submit-button' className='submit-button' type="submit" value='Submit' />
+                        <input id='submit-button' className='submit-button' type="button" value='Submit' />
                         </div>
                   </form>
                   </div>
               </div>
-              <div className={windowSize>500?'grid-3-row':'full-width'}>
-              </div>
+
       </div>
+
 
       </div></div>
   )

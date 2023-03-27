@@ -66,6 +66,9 @@ function App() {
 <div className='decorate'></div>
 <head>
 <style>
+
+  @import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&display=swap');
+
   @import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&display=swap');
 </style>
 </head>
