@@ -77,7 +77,7 @@ function App() {
       <Navigation scrollPosOff={scrollPosOff} windowSize = {windowSize} color = {navColor}></Navigation>
       
       <Routes>
-        <Route path="/" element={<Main windowSize = {windowSize} scrolled={scrolled}/>}></Route>
+        <Route path="/*" element={<Main windowSize = {windowSize} scrolled={scrolled}/>}></Route>
         <Route path="/About" element={<About windowSize = {windowSize}  scrolled={scrolled}/>}></Route>
         <Route path="/Contact" element={<Contact windowSize = {windowSize}/>}></Route>
         <Route path="/Transplent" element={<HairTransplent />}></Route>
